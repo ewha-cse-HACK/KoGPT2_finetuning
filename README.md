@@ -29,7 +29,7 @@ fine tuning 후
 <br>
 
 ### 🖥️Demo video
-[youtube] 
+[youtube] https://youtu.be/NFmeN01eHdY
 <br>
 <br>
 
