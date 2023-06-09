@@ -12,7 +12,7 @@
 ~~~
 git clone https://github.com/ewha-cse-HACK/KoGPT2_finetuning.git
 ~~~
-google colab에서 해당 파일 실행
+<h3> google colab에서 해당 파일 실행 </h3>
 
 fine tuning 전
 <img src = "https://github.com/ewha-cse-HACK/server_dev/assets/67634926/77049db3-b111-4b99-ac18-a5de9aab8379">
