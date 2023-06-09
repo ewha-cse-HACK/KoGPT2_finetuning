@@ -28,13 +28,13 @@ fine tuning 후
 <br>
 <br>
 
-### 🎨Wire frame
-<img src = "https://github.com/ewha-cse-HACK/server_dev/assets/67634926/7ae13ccb-6b58-4710-b653-8538ce48a265">
+### 🖥️Demo video
+[youtube] 
 <br>
 <br>
 
-### 🖥️Demo video
-[youtube] 
+### 🎨Wire frame
+<img src = "https://github.com/ewha-cse-HACK/server_dev/assets/67634926/7ae13ccb-6b58-4710-b653-8538ce48a265">
 <br>
 <br>
 
