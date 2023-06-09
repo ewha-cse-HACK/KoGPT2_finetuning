@@ -12,85 +12,20 @@
 ~~~
 git clone https://github.com/ewha-cse-HACK/KoGPT2_finetuning.git
 ~~~
+google colab에서 해당 파일 실행
 
-<h3>API</h3>
-<table>
-  <thead>
-    <tr>
-        <th align=center>기능</td>
-        <th align=center>Method</td>
-        <th align=center>URL</td>
-        <th align=center>Request Body</td>
-    </tr>
-  </thead>
-    <tr>
-        <td align=center>글 작성</td>
-        <td align=center>POST</td>
-        <td align=center>/posts/</td>
-        <td align=center>{
-          "title": string,
-          "content": string,
-          "author": string
-          }</td>
-    </tr>
-    <tr>
-        <td align=center>글 수정</td>
-        <td align=center>PATCH</td>
-        <td align=center>/posts/{id}</td>
-        <td align=center>{
-                "title": string,
-                "content": string,
-                "author": string
-                }</td>
-    </tr>
-    <tr>
-        <td align=center>글 삭제</td>
-        <td align=center>DELETE</td>
-        <td align=center>/posts/{id}</td>
-        <td align=center></td>
-    </tr>
-    <tr>
-        <td align=center>특정 글 불러오기</td>
-        <td align=center>GET</td>
-        <td align=center>/posts/{id}</td>
-        <td align=center></td>
-    </tr>
-    <tr>
-        <td align=center>전체 글 불러오기</td>
-        <td align=center>GET</td>
-        <td align=center>/posts/</td>
-        <td align=center></td>
-    </tr>
-    <tr>
-        <td align=center>좋아요</td>
-        <td align=center>GET</td>
-        <td align=center>/posts/{id}/dolike</td>
-        <td align=center></td>
-    </tr>
-    <tr>
-        <td align=center>좋아요 취소</td>
-        <td align=center>GET</td>
-        <td align=center>/posts/{id}/undolike</td>
-        <td align=center></td>
-    </tr>
-    <tr>
-        <td align=center>댓글 작성</td>
-        <td align=center>POST</td>
-        <td align=center>/posts/{id}/comment</td>
-        <td align=center>{
-”comment”: string
-}</td>
-    </tr>
-    
-</table>
+fine tuning 전
+<img src = "https://github.com/ewha-cse-HACK/server_dev/assets/67634926/77049db3-b111-4b99-ac18-a5de9aab8379">
+
+fine tuning 후
+<img src = "https://github.com/ewha-cse-HACK/server_dev/assets/67634926/9af26075-b4fb-4110-803e-c26b68be708f">
 <br>
-
-
-<img src = "https://github.com/ewha-cse-HACK/server_dev/assets/67634926/4ab5ee50-fc68-4f65-9fcd-7cd9c11aab10" width = 400 height = 300>
+<br>
 
 ### 🛠️Project Architecture
 <img src = "https://github.com/ewha-cse-HACK/server_dev/assets/67634926/e9c95b0d-8170-428d-90e8-a281188d8c74" width = 500 height = 400>
 <img src = "https://github.com/ewha-cse-HACK/server_dev/assets/67634926/ddb06cdf-21e6-430b-ae30-e0b0b8f44260" width = 500 height = 400>
+<br>
 <br>
 
 ### 🖥️Demo video
@@ -119,8 +54,8 @@ frontend <br>
   </thead>
     <tr>
         <td align=center><img src = "https://github.com/ewha-cse-HACK/server_dev/assets/67634926/a65400ba-bb73-4cda-98f8-029c4108ea1f"></td>
-        <td align=center><img src = "https://github.com/ewha-cse-HACK/server_dev/assets/67634926/355e9179-5e01-40b3-8358-5fc490c8b634"></td>
-        <td align=center><img src = "https://github.com/ewha-cse-HACK/server_dev/assets/67634926/b115675b-ea80-4499-b518-5bac76211d64"></td>
+        <td align=center><img src = "https://github.com/ewha-cse-HACK/server_dev/assets/67634926/c25b45bb-a42a-4359-8b00-85fb916745ef"></td>
+        <td align=center><img src = "https://github.com/ewha-cse-HACK/server_dev/assets/67634926/6102194b-87d0-468b-bdcc-0b93a37a35ef"></td>
     </tr>
     <tr>
         <td align=center>Leader<br>back-end<br>AI</td>
